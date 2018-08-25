@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryToDecimalTests.cs" />
+    <Compile Include="DecimalToHexTests.cs" />
     <Compile Include="DecimalToBinaryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
