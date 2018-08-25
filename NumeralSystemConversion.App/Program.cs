@@ -6,8 +6,8 @@ namespace NumeralSystemConversion
     {
         static void Main(string[] args)
         {
-            var dtoh = new DecimalToHex();
-            var result = dtoh.Convert(3284);
+            var htod = new HexToDecimal();
+            var result = htod.Convert("C9");
         }
     }
 }
