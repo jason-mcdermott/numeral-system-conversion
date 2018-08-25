@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NumeralSystemConversion;
+using NumeralSystemConversion.Converters;
 
-namespace ConversionTests
+namespace NumeralSystemConversion.Tests
 {
     [TestClass]
     public class BinaryToDecimalTests

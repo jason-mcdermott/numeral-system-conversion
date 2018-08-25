@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{966E4931-A333-4FF6-BD85-36EAB3A62562}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NumeralSystemConversion</RootNamespace>
-    <AssemblyName>NumeralSystemConversion</AssemblyName>
+    <RootNamespace>NumeralSystemConversion.App</RootNamespace>
+    <AssemblyName>NumeralSystemConversion.App</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinaryToDecimal.cs" />
-    <Compile Include="BinaryToHex.cs" />
-    <Compile Include="DecimalToBinary.cs" />
-    <Compile Include="DecimalToHex.cs" />
-    <Compile Include="HexToBinary.cs" />
-    <Compile Include="HexToDecimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NumeralSystemConversion.Converters\NumeralSystemConversion.Converters.csproj">
+      <Project>{46ddfcef-259d-4aa9-a195-3d9d72aa4b17}</Project>
+      <Name>NumeralSystemConversion.Converters</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

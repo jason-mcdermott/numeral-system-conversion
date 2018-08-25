@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NumeralSystemConversion
+namespace NumeralSystemConversion.Converters
 {
     public class DecimalToHex
     {

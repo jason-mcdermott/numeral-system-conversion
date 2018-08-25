@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NumeralSystemConversion\NumeralSystemConversion.csproj">
-      <Project>{966E4931-A333-4FF6-BD85-36EAB3A62562}</Project>
-      <Name>NumeralSystemConversion</Name>
+    <ProjectReference Include="..\NumeralSystemConversion.Converters\NumeralSystemConversion.Converters.csproj">
+      <Project>{46ddfcef-259d-4aa9-a195-3d9d72aa4b17}</Project>
+      <Name>NumeralSystemConversion.Converters</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
