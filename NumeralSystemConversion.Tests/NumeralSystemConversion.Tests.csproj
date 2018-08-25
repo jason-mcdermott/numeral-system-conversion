@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryToHexTests.cs" />
     <Compile Include="HexToBinaryTests.cs" />
     <Compile Include="HexToDecimalTests.cs" />
     <Compile Include="BinaryToDecimalTests.cs" />

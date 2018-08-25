@@ -6,8 +6,8 @@ namespace NumeralSystemConversion
     {
         static void Main(string[] args)
         {
-            var htob = new HexToBinary();
-            var result = htob.Convert("3AB2");
+            var btoh = new BinaryToHex();
+            var result = btoh.Convert("00011111011101110010");
         }
     }
 }
