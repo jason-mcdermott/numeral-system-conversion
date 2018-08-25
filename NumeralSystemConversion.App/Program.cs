@@ -6,8 +6,8 @@ namespace NumeralSystemConversion
     {
         static void Main(string[] args)
         {
-            var htod = new HexToDecimal();
-            var result = htod.Convert("C9");
+            var htob = new HexToBinary();
+            var result = htob.Convert("3AB2");
         }
     }
 }
